@@ -91,14 +91,10 @@ ARQUIVOS RELACIONADOS:
 - models/Cliente.php: Classe de modelo que interage com esta tabela
 - config/config.php: Configurações de conexão com o banco
 
-  ╔══════════════════════════════════════════════╗
-  ║                🛡️ ATENÇÃO 🛡️                ║
-  ╠══════════════════════════════════════════════╣
-  ║ Este projeto não inclui sistema de autentica-║
-  ║ ção por focar nos conceitos básicos de MVC.  ║
-  ║                                              ║
-  ║ Para uso em produção, recomenda-se:          ║
-  ║ • Tela de login com JWT                      ║
-  ║ • Middlewares de autenticação                ║
-  ║ • Criptografia de dados sensíveis           ║
-  ╚══════════════════════════════════════════════╝
+
+####🛡️ ATENÇÃO 🛡️                 
+Este projeto não inclui sistema de autenticação por focar nos conceitos básicos de MVC.
+Para uso em produção, recomenda-se:          
+• Tela de login com JWT                      
+• Middlewares de autenticação                
+• Criptografia de dados sensíveis            
