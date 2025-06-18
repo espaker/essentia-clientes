@@ -13,21 +13,27 @@
    composer install
 ```
 
-2. Inicie os containers:
+2. Configure o ambiente:
+```bash
+   cp .env.example .env
+   php artisan key:generate
+```
+
+3. Inicie os containers:
 ```bash
    ./vendor/bin/sail up -d
 ```
-3. Execute as migrações:
+4. Execute as migrações:
 ```bash
    ./vendor/bin/sail artisan migrate
 ```
-4. Instale as dependências do frontend:
+6. Instale as dependências do frontend:
 ```bash
-   ./vendor/bin/sail npm install
+   ./vendor/bin/sail pnpm install
 ```
-5. Inicie o servidor de desenvolvimento:
+7. Inicie o servidor de desenvolvimento:
 ```bash
-   ./vendor/bin/sail npm run dev
+   ./vendor/bin/sail pnpm run dev
 ```
 🌐 Acessando a Aplicação
 
